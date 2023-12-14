@@ -1,0 +1,26 @@
+.game {
+    width: 85%;
+    border: 1px solid black;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#flower {
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    animation: flower 2s infinite linear;
+}
+
+@keyframes flower {
+    from {
+        right: -100px;
+    }
+
+    to {
+        right: 100%;
+    }
+
+}
